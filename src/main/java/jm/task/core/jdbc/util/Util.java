@@ -46,7 +46,6 @@ public class Util {
                         cofiguration.setProperty("hibernate.connection.password", password);
                         cofiguration.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
                         cofiguration.setProperty("hibernate.show_sql", "true");
-                        cofiguration.setProperty("hibernate.hbm2ddl.auto", "update");
 
                         cofiguration.addAnnotatedClass(User.class);
 
