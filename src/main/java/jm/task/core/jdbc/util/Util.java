@@ -15,6 +15,7 @@ public class Util {
 
     public static SessionFactory getSessionFactory() {
         if(sessionFactory == null) {
+
             synchronized (Util.class) {
                 if (sessionFactory == null) {
                     try {
